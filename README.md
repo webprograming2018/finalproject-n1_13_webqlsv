@@ -16,8 +16,8 @@ c.	Hạn chế, hướng phát triển: Chưa áp dụng được JavaWeb(Jsp, S
 2/ Phân công công việc
 
 STT	  Họ tên	          Các nội dung thực hiện	    Đánh giá
-1	    Đỗ Thị Hồng Hạnh	-Giao diện, jsp, servlet	    60%
-2	    Trần Thị Thơm	    -Giao diện, jsp, servlet	    40%
+1	    Đỗ Thị Hồng Hạnh	-Giao diện, jsp, servlet	    70%
+2	    Trần Thị Thơm	    -Giao diện, jsp, servlet	    30%
 
 3/ Quá trình thực hiện
 Phiên bản	Chức năng	Kỹ thuật/nội dung lý thuyết đã ứng dụng	Thời gian	Vấn đề gặp phải
