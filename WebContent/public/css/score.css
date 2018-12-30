@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 1.3em;
+   
+    background-size: cover;
+}
+.container{
+    margin: 0 auto;
+    width: 80%;
+    display:grid;
+    grid-template-rows: 1000px;
+    grid-template-columns: repeat(12, 1fr);
+    justify-content: center;
+    box-sizing: border-box;
+
+}
+
+aside{
+   
+    grid-column: span 3;
+    background-color: #2c3e50;
+    
+}
+
+section{
+    grid-column: span 9;
+    background: white;
+    margin-top: -20px;
+    background-size: cover;
+
+}
+
+h2{
+    text-align: center;
+}
+
+section button{
+    float:right;
+    margin-right: 50px;
+    color: white;
+    background-color: #2980b9;
+    top: 20px;
+    /* right: 80px; */
+    border:none;
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+button:hover{
+    cursor: pointer;
+    background: #27ae60;
+    
+}
+
+aside .title{
+   
+    line-height: 60px;
+    color:white;
+    background-color: #2ecc71;
+    margin-top: -38px;
+}
+
+aside ul li{
+    text-align: left;
+    list-style-type: none;
+    color:white;
+    padding: 25px;
+}
+
+aside ul li a{
+    text-decoration: none;
+    color:white;
+}
+.title{
+    text-align: center;
+}
+
+table{
+    background: white;
+    border-radius: 10px;
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 100px;
+    padding: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    animation: float 5s infinite;
+    width: 90%;
+}
+
+button a{
+    text-decoration: none;
+    color:white;
+}
+td{
+    text-align: center;
+}
+td a{
+    text-decoration: none;
+}
+
+tr{
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    height: 8vh;
+}
+
