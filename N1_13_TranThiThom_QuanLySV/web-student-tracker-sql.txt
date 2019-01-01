@@ -1,0 +1,41 @@
+DROP database IF EXISTS `web_student_tracker`;
+
+create database `web_student_tracker`;
+
+use web_student_tracker;
+
+
+DROP TABLE IF EXISTS `student`;
+
+
+
+CREATE TABLE `student` (
+
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+
+  `name` varchar(45) DEFAULT NULL,
+
+  `dob` datetime NOT NULL,
+
+  `gender` varchar(45) DEFAULT NULL,
+
+  `email` varchar(45) DEFAULT NULL,
+
+  `country` varchar(45) DEFAULT NULL,
+
+  `mark` decimal(5,2) NOT NULL,
+
+  PRIMARY KEY (`id`)
+
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
+
+
+
+LOCK TABLES `student` WRITE;
+
+
+INSERT INTO `student` VALUES (1,'hoang anh tuan','1996-05-02 00:00:00','male','hoanganhtuan@gmail.com','ha noi',8.3),(2,'nguyen xuan tuyen','1992-12-12 00:00:00','male','nguyenxuantuyen@gmail.com','nam dinh',7.5),(3,'bui quang huy','1998-03-02 00:00:00','male','buiquanghuy@gmail.com','vinh phuc',6);
+
+
+
+UNLOCK TABLES;
